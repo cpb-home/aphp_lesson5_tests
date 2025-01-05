@@ -41,7 +41,7 @@ class UsersTest extends TestCase
     {
         $users = new Users();
         $users->insert(['name'=>'Иван', 'surname'=>'Петров', 'age'=>31]);
-        $res = $users->delete(0);
+        //$res = $users->delete(0);
         $users->delete(0);
         
         //$this->assertNull($res);

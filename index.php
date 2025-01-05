@@ -1,6 +1,5 @@
 <?php
 
-//require_once './classes/TableWrapperInterface.php';
 require_once './classes/Users.php';
 require_once './classes/UserTableWrapper.php';
 require_once './classes/ducks/DecoyDuck.php';
